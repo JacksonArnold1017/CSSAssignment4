@@ -7,51 +7,54 @@
 */
 
 body {
-	font-size: 16px;
+	font-size: 20px;
 	font-family: 'Sanchez', serif;
 	
 }
 
 h1, h2, h3 {
 	font-family: 'Rakkas', cursive;
-	margin: 1em; 
+	margin: 0.5em; 
+	margin-bottom: 2em;
 }
 
 aside {
-	width: 25%;
-
+float: left;
+width: 25%;
 	
 }
 
 footer {
-
+clear: left;
 }
 
 header {
-
+float: clear;
 }
 
 img {
-	max-width: 50%;
-	float: right;
+	max-width: 60%;
 }
 
 main {
-width: 50%;
-
+width: 40%;
+float: left;
+margin-right: 1em;
 
 }
 
 nav {
 font-weight: 700;
-width: 20%;
 float: left;
+width: 15%;
+
 }
 
-#copyright {
+
+#copyright{
 	font-size: 80%;
 }
 
 #main-container {
-
+margin-left: 1em;
 }
